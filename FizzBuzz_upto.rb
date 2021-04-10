@@ -1,4 +1,4 @@
-for i in 1..30
+1.upto(30) do |i|
 
   if i % 15 == 0
       puts "FizzBuzz!"
