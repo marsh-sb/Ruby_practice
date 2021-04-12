@@ -35,3 +35,21 @@ puts sk8_name3.slice(2...5)
 # slice(開始位置...終了位置)
 # ⇒開始位置を含む終了位置-開始位置の長さの文字列が抽出
 # slice(位置)：指定した位置の文字列を抽出
+
+
+sk8_name4 = gets.chomp!
+skstr = sk8_name4
+puts skstr.gsub(sk8_name4,"Louie Lopez")
+
+# gsubはマッチしたすべての部分を特定の文字列に置換するメソッド
+# パターンには文字列や正規表現が使える
+
+
+sk8str = "Luan Oliveria Shane O'neill Chris Joslin"
+
+ar_sk8 = sk8str.split(' ')
+
+puts ar_sk8[0]
+puts ar_sk8[1]
+
+# splitは区切り文字を指定すると、文字列を配列に変換できるメソッド
