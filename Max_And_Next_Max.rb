@@ -15,7 +15,7 @@ end
 arr = arr.sort
 
 # 区分け後、一番大きい要素がMax、2番目に大きい要素がNextMaxになります
-puts ("Max: "+ arr[num-1].to_s)
+puts ("Max: " + arr[num-1].to_s)
 if num > 1
-    puts ("Next max: "+ arr[num-2].to_s)
+  puts ("Next max: " + arr[num-2].to_s)
 end
