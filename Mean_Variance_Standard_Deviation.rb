@@ -2,7 +2,7 @@
 
 puts "配列の要素数を入力してください :"
 num1 = gets.to_i
-a = Array.new(num1) 
+a = Array.new(num1)
 puts "配列を入力してください: "
 
 counter = 0
